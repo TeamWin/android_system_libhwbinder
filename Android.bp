@@ -126,6 +126,7 @@ cc_library {
 // http://b/77320844
 cc_library_static {
     name: "libhwbinder_pgo-impl-internal",
+    recovery_available: true,
     defaults: [
         "libhwbinder_defaults",
         "libhwbinder-impl-shared-libs",
